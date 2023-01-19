@@ -5,7 +5,7 @@ var handler = async (m, {
  usedPrefix,
  command
  }) => {
-var gh = 'https://github.com/RaaaGH'
+var gh = 'https://github.com/IyanGz'
   let buttonMessage= {
 'document':{'url':gh},
 'mimetype':'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
@@ -19,11 +19,11 @@ var gh = 'https://github.com/RaaaGH'
 'mediaType':2,
 'previewType':'pdf',
 'title':'Follow Github Gua',
-'body':'© ZenssCuyy',
+'body':'© Mona Bot',
 'thumbnail':await(await fetch('https://telegra.ph/file/340211493a1858b4c9256.jpg')).buffer(),
 'sourceUrl':gh}},
-'caption':'Hi, Silahkan pilih opsi di bawah ini.\n*Payment*\n\n*x* Dana: 0895604670507\n*x* Pulsa: 0895604670507',
-'footer':'©Zenss',
+'caption':'Hi, Silahkan pilih opsi di bawah ini.\n*Payment*\n\n*x* Dana: 085742344873\n*x* Pulsa: 085742344873',
+'footer':'© Iyan Ganz',
 'buttons':[
 {'buttonId':'.menu','buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':1},
 {'buttonId':'.donasi','buttonText':{'displayText':'ᴅᴏɴᴀsɪ'},'type':1}
