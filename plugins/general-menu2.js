@@ -183,24 +183,24 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: '© ZenssCuyy',
+                            message: '© Iyan Ganz',
                             orderTitle: 'MENU',
-                            thumbnail: await (await fetch('https://telegra.ph/file/80c49e3ab1a4659a415cf.jpg')).buffer(),
+                            thumbnail: await (await fetch('https://telegra.ph/file/06e6f6a0ac97e95fe49c5.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
                         }
                       }
-await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/340211493a1858b4c9256.jpg')).buffer(),  'ʜᴇʀᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ', text, 'ʙᴀᴄᴋ', '.menu', 'ɪɴꜰᴏ', '.info', 'ᴀʟʟᴍᴇɴᴜ', '.pay', m, {  
+await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/494e3283bce68caa40c18.jpg')).buffer(),  'ʜᴇʀᴇ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ', text, 'ʙᴀᴄᴋ', '.menu', 'ɪɴꜰᴏ', '.info', 'ᴀʟʟᴍᴇɴᴜ', '.pay', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
-          externalAdReply: {  showAdAttribution: true, 
-              title: 'ʙᴏᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ᴍᴜʟᴛɪ ᴀᴜᴛʜ',  
-              body: '© Zenss', 
-              description: ' 𝑺𝒉𝒆𝒏𝒉𝒆-𝑴𝑫 ♡ 𝒁𝒆𝒏𝒔𝒔𝑪𝒖𝒚𝒚 䆮', 
+          externalAdReply: {  showAdAttribution: false, 
+              title: 'ᴍᴏɴᴀ - ʙᴏᴛ ʙʏ ɪʏᴀɴ ɢᴀɴᴢ',  
+              body: '© Iyan Ganz', 
+              description: 'ᴍᴏɴᴀ - ʙᴏᴛ ʙʏ ɪʏᴀɴ ɢᴀɴᴢ 䆮', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.youtube.com/@ZenssCuyy` 
+            thumbnail: await (await fetch('https://telegra.ph/file/06e6f6a0ac97e95fe49c5.jpg')).buffer(), 
+           mediaUrl: `https://www.youtube.com/@iyandevs` 
           }  
        }  
       })
@@ -211,7 +211,7 @@ await conn.send3ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/34
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(allmenu)$/i
+handler.command = /^(menu|help)$/i
 
 handler.exp = 3
 
