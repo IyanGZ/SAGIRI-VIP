@@ -23,12 +23,12 @@ N:Sy;Bot;;;
 FN: ${name}
 item.ORG: Creator Bot
 item1.TEL;waid=${numberowner}:${numberowner}@s.whatsapp.net
-item1.X-ABLabel:Nomor Creator Bot 
+item1.X-ABLabel:Creator Mona Bot
 item2.EMAIL;type=INTERNET:${gmail}
 item2.X-ABLabel:Email Owner
 item3.ADR:;;🇮🇩 Indonesia;;;;
 item3.X-ABADR:ac
-item4.EMAIL;type=INTERNET:support@ZenssCuyy
+item4.EMAIL;type=INTERNET:bexxamofc@gmail.com
 item4.X-ABLabel:Email Developer 
 item3.ADR:;; 🗿 Hatimu;;;;
 item3.X-ABADR:ac 
